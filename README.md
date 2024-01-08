@@ -1,4 +1,4 @@
-![Example Tasks created with ORBIT](docs/source/_static/tasks.jpg)
+![Example Tasks created with O-Ring Manpulation](img/title.png)
 
 ---
 
@@ -54,6 +54,17 @@ Orbit framework is released under [BSD-3 License](LICENSE). The license files of
 
 Please cite [this paper](https://arxiv.org/abs/2301.04195) if you use this framework in your work:
 
+
+```text
+@misc{chanyoung2024oringmanipulation,
+	author = {Chanyoung Ahn and Jeongho Ha Daehyung Park},
+	title = {O-Ring Manipulation for SA-iSRL},
+	year = {2024},
+}
+```
+
+
+
 ```text
 @article{mittal2023orbit,
    author={Mittal, Mayank and Yu, Calvin and Yu, Qinxi and Liu, Jingzhou and Rudin, Nikita and Hoeller, David and Yuan, Jia Lin and Singh, Ritvik and Guo, Yunrong and Mazhar, Hammad and Mandlekar, Ajay and Babich, Buck and State, Gavriel and Hutter, Marco and Garg, Animesh},
@@ -66,3 +77,4 @@ Please cite [this paper](https://arxiv.org/abs/2301.04195) if you use this frame
    doi={10.1109/LRA.2023.3270034}
 }
 ```
+
