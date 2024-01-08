@@ -54,3 +54,6 @@ _build
 # RL-Games
 **/runs/*
 **/logs/*
+
+# Backups
+**/.history/*
