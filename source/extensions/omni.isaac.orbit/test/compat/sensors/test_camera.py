@@ -12,7 +12,7 @@ import logging
 from omni.isaac.kit import SimulationApp
 
 # launch the simulator
-config = {"headless": True}
+config = {"headless": False}
 simulation_app = SimulationApp(config)
 
 # disable matplotlib debug messages

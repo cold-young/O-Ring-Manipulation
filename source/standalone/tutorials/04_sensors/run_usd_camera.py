@@ -165,6 +165,8 @@ def run_simulator(sim: sim_utils.SimulationContext, scene_entities: dict):
         print(camera)
         print("Received shape of rgb   image: ", camera.data.output["rgb"].shape)
         print("Received shape of depth image: ", camera.data.output["distance_to_image_plane"].shape)
+        # print("Received shape of pointcloud   image: ", camera.data.output["pointcloud"].shape)
+        
         print("-------------------------------")
 
         # Extract camera data
@@ -222,6 +224,9 @@ def run_simulator(sim: sim_utils.SimulationContext, scene_entities: dict):
             points_size = [1.25] * num_points
             # Fix random seed
             random.seed(0)
+            
+            # We can get partially point cloud (No segmentation!)
+            # points_3d_world
             # Visualize the points
             for index in range(num_batch):
                 # generate random color

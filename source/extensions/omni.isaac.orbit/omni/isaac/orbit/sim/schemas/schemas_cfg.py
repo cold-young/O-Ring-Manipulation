@@ -81,6 +81,8 @@ class RigidBodyPropertiesCfg:
     stabilization_threshold: float | None = None
     """The mass-normalized kinetic energy threshold below which an actor may participate in stabilization."""
 
+# @configclass
+# class SoftBodyPropertiesCfg:
 
 @configclass
 class CollisionPropertiesCfg:
