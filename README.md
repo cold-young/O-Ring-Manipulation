@@ -14,8 +14,8 @@
 
 Contributor: [Chanyoung Ahn](https://github.com/cold-young) 
 
-**O-Ring Manipulation for SA-iSRL based on Orbit** is a O-Ring manipulation framework for robot learning using SA-iSRL model in deep reinforcement learing.
-We provide five O-Ring manipulation environments and data collection module for learning SA-iSRL model.
+**O-Ring Manipulation for SA-iSRL based on Orbit** is a O-Ring manipulation framework for robot learning using SRL model in deep reinforcement learing.
+We provide five O-Ring manipulation environments and data collection module for learning SRL model.
 
 ____
 **Orbit** is a unified and modular framework for robot learning that aims to simplify common workflows
@@ -29,11 +29,7 @@ installation steps, features, and tutorials.
 ## O-Ring Manipulation Envs for SA-iSRL
 
 We provide five O-Ring manipulation tasks for SA-iSRL model.
-1. Untangle
-2. Insert
-3. Install 
-4. Entangle
-5. Pulley-Install (temporal)
+1. Entangle
 
 ## Troubleshooting
 
@@ -57,8 +53,8 @@ Please cite [this paper](https://arxiv.org/abs/2301.04195) if you use this frame
 
 ```text
 @misc{chanyoung2024oringmanipulation,
-	author = {Chanyoung Ahn and Jeongho Ha Daehyung Park},
-	title = {O-Ring Manipulation for SA-iSRL},
+	author = {Chanyoung Ahn},
+	title = {O-Ring Manipulation},
 	year = {2024},
 }
 ```
